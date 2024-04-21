@@ -1,0 +1,177 @@
+.gradient-background{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 7%, rgba(255,0,0,0.5985758805475315) 94%);
+background-size: 180% 180%;
+animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}  
+span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+h2{
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+}
+li{
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/* --------------------1st page----------------------- */
+
+
+.navbar{
+    font-weight: 700;
+   
+  }
+.myintro{
+  font-family: 'Solway', serif;
+}
+.mycartoonpic{
+  border-radius: 20%;
+  max-width: 100%;
+  height: 400px;
+}  
+/* 2nd page*/
+.aboutme{
+  margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+.aboutme-heading{
+  text-align: center;
+
+}
+.mypic{
+  display: block;
+  height: 200px;
+  border-radius: 50%;
+  
+  margin-bottom: 1rem;
+ margin-left: auto;
+ margin-right: auto;
+}
+.myaboutme{
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+  color: gray;
+
+}
+/* -----------------3rd page -------------- */
+#page-3{
+  background-color: #F5F5F5;
+  padding-top: 1rem;
+
+}
+.eduskills{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-top: 3rem;
+
+}
+.eduskills p,li{
+  color: gray;
+
+}
+.education-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.langnames{
+display: inline-block;
+
+}
+.langpower{
+  display: inline-block;
+  
+}
+.langpower li{
+  list-style: none;
+}
+.languages-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* -------------- 4th page-------------- */
+
+#page-4{
+  padding-top: 1rem;
+}
+/* .certextra{
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 3rem;
+}
+.certextra span{
+  font-family: 'Source Sans 3', sans-serif;
+  color: black;
+}
+
+.certificates-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages{
+display: inline;
+}
+.languages-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.contactme{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.contactme h2{
+  margin-bottom: 2rem;
+  font-family: 'Solway', serif;
+  font-weight: 900;
+
+}
+@media only screen and (max-width:1250px)
+{
+  .eduskills{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+  }
+.mycartoonpic{
+  margin-left: auto;
+  margin-right: auto;
+}
+}
